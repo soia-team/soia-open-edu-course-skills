@@ -13,6 +13,7 @@ from pathlib import Path
 
 
 GROUPS = [
+    ("soia-edu-", "Education", "education"),
     ("soia-pkm-", "PKM", "content"),
     ("soia-cwork-", "CWork", "cwork"),
     ("soia-dev-", "Development", "development"),

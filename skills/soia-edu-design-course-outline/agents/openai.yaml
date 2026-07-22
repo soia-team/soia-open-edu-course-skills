@@ -1,0 +1,4 @@
+interface:
+  display_name: "课程大纲设计"
+  short_description: "从主题、受众与课时约束生成目标可测的课程大纲"
+  default_prompt: "Use $soia-edu-design-course-outline to design a measurable course outline from my topic, audience, and lesson constraints."

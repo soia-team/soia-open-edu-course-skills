@@ -1,0 +1,4 @@
+interface:
+  display_name: "教案与讲义编写"
+  short_description: "按课程大纲编写含时间、互动和作业的教案与讲义结构"
+  default_prompt: "Use $soia-edu-compose-lesson-plan to turn my course outline into a timed lesson plan and handout structure."
