@@ -10,6 +10,13 @@ This repository is incubating; skills and interfaces may continue to change.
 
 This repository owns the `edu` domain. Skill names use the `soia-edu-*` prefix.
 
+## Skills
+
+| Skill | Purpose | Typical triggers |
+|---|---|---|
+| [`soia-edu-design-course-outline`](./skills/soia-edu-design-course-outline/) | Generate a measurable course outline from a topic, audience, and lesson constraints | course outline, learning objectives, lesson schedule |
+| [`soia-edu-compose-lesson-plan`](./skills/soia-edu-compose-lesson-plan/) | Turn an outline into a timed lesson plan and handout structure with interactions and assignments | lesson plan, handout, classroom activity |
+
 ## Install
 
 ```bash
