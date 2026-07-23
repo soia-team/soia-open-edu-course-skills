@@ -1,26 +1,32 @@
-# soia-open-edu-course-skills
+# SOIA Education and Course Skills
 
-教育-课程：课程大纲、教案讲义、题目测评（孵化仓；通用化，个性化数据只进用户配置）
-
-## Incubating
-
-This repository is incubating; skills and interfaces may continue to change.
-
-## Domain
-
-This repository owns the `edu` domain. Skill names use the `soia-edu-*` prefix.
+Reusable AI skills for course outline design, lesson planning, and handout structuring.
 
 ## Skills
 
-| Skill | Purpose | Typical triggers |
-|---|---|---|
-| [`soia-edu-design-course-outline`](./skills/soia-edu-design-course-outline/) | Generate a measurable course outline from a topic, audience, and lesson constraints | course outline, learning objectives, lesson schedule |
-| [`soia-edu-compose-lesson-plan`](./skills/soia-edu-compose-lesson-plan/) | Turn an outline into a timed lesson plan and handout structure with interactions and assignments | lesson plan, handout, classroom activity |
+| Skill | Summary |
+|---|---|
+| `soia-edu-compose-lesson-plan` | Turn a course outline into an executable lesson plan and handout structure with timing, interactions, and assignments. |
+| `soia-edu-design-course-outline` | Design a measurable course outline from a topic, audience, and lesson constraints. |
 
-## Install
+## Installation
+
+Replace `<skill>` with a skill name from the table above:
 
 ```bash
 npx skills add soia-team/soia-open-edu-course-skills -g -a '*' -s <skill> -y
 ```
 
-This repository is part of the SOIA skill ecosystem. The canonical specifications live in [soia-team/soia-open-skills](https://github.com/soia-team/soia-open-skills).
+For example, install the course outline skill:
+
+```bash
+npx skills add soia-team/soia-open-edu-course-skills -g -a '*' -s soia-edu-design-course-outline -y
+```
+
+## Ecosystem
+
+See [soia-team/soia-open-skills](https://github.com/soia-team/soia-open-skills) for the canonical specifications and complete ecosystem catalog.
+
+## License
+
+MIT License. See [LICENSE](./LICENSE).
