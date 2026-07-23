@@ -1,0 +1,23 @@
+{
+  "name": "soia-edu-course",
+  "version": "1.0.0",
+  "description": "教育课程技能：课程大纲设计与教案编写",
+  "author": {
+    "name": "soia-team"
+  },
+  "interface": {
+    "displayName": "教育课程技能库",
+    "shortDescription": "课程大纲设计与教案编写",
+    "longDescription": "根据主题、受众和课时约束设计课程大纲，并编写可执行教案与讲义结构的技能。",
+    "developerName": "soia-team",
+    "category": "Education",
+    "capabilities": [
+      "课程设计",
+      "教案编写",
+      "讲义规划"
+    ],
+    "defaultPrompt": [
+      "请根据主题、受众和课时设计课程大纲与教案。"
+    ]
+  }
+}
