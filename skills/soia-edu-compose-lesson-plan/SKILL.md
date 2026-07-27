@@ -34,6 +34,16 @@ updated_by: gpt-5.6-luna
 本技能是纯方法论技能，无强依赖、脚本或外部服务；无需配置即可完成教案和讲义结构。
 
 ```bash
+claude plugin marketplace add soia-team/soia-open-skills
+```
+
+```bash
+claude plugin install soia-edu-course@soia
+```
+
+只要这一个技能时，可用 npx 路线。注意技能会落进共享真源 `~/.agents/skills`；若同时装了插件，同一技能会出现两份索引且各自漂移，建议二选一：
+
+```bash
 npx skills add soia-team/soia-open-edu-course-skills -g -a '*' -s soia-edu-compose-lesson-plan -y
 ```
 
