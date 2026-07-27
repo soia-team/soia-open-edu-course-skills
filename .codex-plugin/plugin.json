@@ -19,5 +19,6 @@
     "defaultPrompt": [
       "请根据主题、受众和课时设计课程大纲与教案。"
     ]
-  }
+  },
+  "homepage": "https://github.com/soia-team/soia-open-edu-course-skills"
 }
