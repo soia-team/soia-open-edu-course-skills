@@ -1,6 +1,6 @@
 {
   "name": "soia-edu-course",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "教育课程技能：课程大纲设计与教案编写",
   "author": {
     "name": "soia-team"
@@ -20,7 +20,7 @@
       "请根据主题、受众和课时设计课程大纲与教案。"
     ],
     "websiteURL": "https://github.com/soia-team/soia-open-edu-course-skills",
-    "composerIcon": "./assets/icon.png",
+    "composerIcon": "./assets/icon.svg",
     "logo": "./assets/icon.png",
     "brandColor": "#818CF8"
   },
