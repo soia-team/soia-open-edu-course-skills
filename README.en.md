@@ -77,6 +77,19 @@ twice and the two copies drift apart — pick one:
 npx skills add soia-team/soia-open-edu-course-skills -g -a '*' -s <skill-name> -y
 ```
 
+## Validate & contribute
+
+After changing a skill, run before committing:
+
+```bash
+python3 -m unittest discover -s tests -p 'test_*.py'
+python3 scripts/generate_skill_catalog.py --check
+python3 scripts/audit_skills.py --strict
+```
+
+Contribution flow, the skill contract, and release steps are in the portal's
+[CONTRIBUTING.md](https://github.com/soia-team/soia-open-skills/blob/main/CONTRIBUTING.md).
+
 ## Ecosystem
 
 Specifications, the full ecosystem catalog, and install guides live in [soia-team/soia-open-skills](https://github.com/soia-team/soia-open-skills).
