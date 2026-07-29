@@ -47,8 +47,8 @@
 
 | 技能 | 一句话职责 | 开箱可用 |
 |---|---|---|
-| `soia-edu-compose-lesson-plan` | 按课程大纲编写可执行教案与讲义结构；适用于“教案”“讲义”“课堂活动”等请求。 | ✅ |
-| `soia-edu-design-course-outline` | 从主题、受众和课时约束设计课程大纲；适用于“课程大纲”“教学目标”“课时规划”等请求。 | ✅ |
+| `soia-edu-compose-lesson-plan` | 按课程大纲编写可执行教案与讲义结构。 | ✅ |
+| `soia-edu-design-course-outline` | 从主题、受众和课时约束设计课程大纲。 | ✅ |
 
 ## 安装
 
@@ -75,6 +75,19 @@ codex plugin add soia-edu-course@soia
 ```bash
 npx skills add soia-team/soia-open-edu-course-skills -g -a '*' -s <技能名> -y
 ```
+
+## 验证与贡献
+
+改动技能后，提交前跑：
+
+```bash
+python3 -m unittest discover -s tests -p 'test_*.py'
+python3 scripts/generate_skill_catalog.py --check
+python3 scripts/audit_skills.py --strict
+```
+
+贡献流程、技能契约与发布步骤见元仓
+[CONTRIBUTING.md](https://github.com/soia-team/soia-open-skills/blob/main/CONTRIBUTING.md)。
 
 ## 生态导航
 
