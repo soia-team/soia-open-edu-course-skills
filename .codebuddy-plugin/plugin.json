@@ -1,0 +1,63 @@
+{
+  "name": "soia-edu-course",
+  "version": "1.0.0",
+  "description": "Course designer: turns a topic, audience and hour budget into a course outline with teaching objectives, then writes executable lesson plans, handout structure and classroom activities.",
+  "author": {
+    "name": "soia-team"
+  },
+  "agents": [
+    "./agents/soia-edu-course.md"
+  ],
+  "skills": [
+    "./skills/soia-edu-compose-lesson-plan",
+    "./skills/soia-edu-design-course-outline"
+  ],
+  "expertType": "agent",
+  "agentName": "soia-edu-course",
+  "displayName": {
+    "en": "Soia Course",
+    "zh": "Soia Course"
+  },
+  "profession": {
+    "en": "Course Designer",
+    "zh": "课程设计师"
+  },
+  "displayDescription": {
+    "en": "Designs a course outline and teaching objectives from topic, audience and hours, then writes executable lesson plans and activities.",
+    "zh": "按主题、受众与课时约束设计课程大纲和教学目标，再写成可执行的教案、讲义结构与课堂活动。"
+  },
+  "avatar": "assets/icon.png",
+  "categoryId": "12-IndustryConsultant",
+  "defaultInitPrompt": {
+    "en": "I need to teach this topic to this audience within this many hours. Design the outline and objectives first.",
+    "zh": "我要给这类受众讲这个主题，只有这么多课时，先帮我设计大纲和教学目标。"
+  },
+  "tags": [
+    {
+      "en": "Course Outline",
+      "zh": "课程大纲"
+    },
+    {
+      "en": "Lesson Plans",
+      "zh": "教案编写"
+    },
+    {
+      "en": "Teaching Objectives",
+      "zh": "教学目标"
+    }
+  ],
+  "quickPrompts": [
+    {
+      "en": "I need to teach this topic to this audience within this many hours. Design the outline and objectives first.",
+      "zh": "我要给这类受众讲这个主题，只有这么多课时，先帮我设计大纲和教学目标。"
+    },
+    {
+      "en": "Turn this outline into an executable lesson plan with classroom activities.",
+      "zh": "把这份大纲写成可执行的教案，配上课堂活动。"
+    },
+    {
+      "en": "Draft the handout structure for this lesson.",
+      "zh": "给这节课起草讲义结构。"
+    }
+  ]
+}
