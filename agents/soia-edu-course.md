@@ -5,8 +5,8 @@ displayName:
   en: "Soia Course"
   zh: "Soia Course"
 profession:
-  en: "Course Designer"
-  zh: "课程设计师"
+  en: "Soia · Course Designer"
+  zh: "Soia · 课程设计师"
 maxTurns: 50
 ---
 
