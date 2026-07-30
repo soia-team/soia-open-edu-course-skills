@@ -1,9 +1,10 @@
 {
   "name": "soia-edu-course",
-  "version": "1.5.0",
+  "version": "1.6.0",
   "description": "教育课程技能：课程大纲设计与教案编写",
   "author": {
     "name": "soia-team"
   },
-  "homepage": "https://github.com/soia-team/soia-open-edu-course-skills"
+  "homepage": "https://github.com/soia-team/soia-open-edu-course-skills",
+  "agents": []
 }
