@@ -33,8 +33,8 @@ flowchart LR
 
 | 技能 | 职责 | 开箱 |
 |---|---|:-:|
-| `soia-edu-design-course-outline` | 从主题、受众与课时约束设计大纲，明确教学目标与课时分配 | ✅ |
-| `soia-edu-compose-lesson-plan` | 按大纲编写可执行教案、讲义结构与课堂活动 | ✅ |
+| [`soia-edu-design-course-outline`](https://github.com/soia-team/soia-open-skills/blob/main/docs/skills/soia-edu-design-course-outline.md) | 从主题、受众与课时约束设计大纲，明确教学目标与课时分配 | ✅ |
+| [`soia-edu-compose-lesson-plan`](https://github.com/soia-team/soia-open-skills/blob/main/docs/skills/soia-edu-compose-lesson-plan.md) | 按大纲编写可执行教案、讲义结构与课堂活动 | ✅ |
 
 ✅ 两个技能装完即用，无需任何 API key 或平台登录
 

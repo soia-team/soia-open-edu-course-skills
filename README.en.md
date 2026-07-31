@@ -33,8 +33,8 @@ flowchart LR
 
 | Skill | Responsibility | Ready |
 |---|---|:-:|
-| `soia-edu-design-course-outline` | Designs an outline from topic, audience and hour budget, with explicit objectives and hour allocation | ✅ |
-| `soia-edu-compose-lesson-plan` | Writes an executable lesson plan, handout structure and classroom activities from the outline | ✅ |
+| [`soia-edu-design-course-outline`](https://github.com/soia-team/soia-open-skills/blob/main/docs/skills/soia-edu-design-course-outline.md) | Designs an outline from topic, audience and hour budget, with explicit objectives and hour allocation | ✅ |
+| [`soia-edu-compose-lesson-plan`](https://github.com/soia-team/soia-open-skills/blob/main/docs/skills/soia-edu-compose-lesson-plan.md) | Writes an executable lesson plan, handout structure and classroom activities from the outline | ✅ |
 
 ✅ Both skills work right after install — no API key, no platform login
 
