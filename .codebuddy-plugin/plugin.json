@@ -1,6 +1,6 @@
 {
   "name": "soia-edu-course",
-  "version": "1.0.0",
+  "version": "1.1.0-SNAPSHOT",
   "description": "Course designer: turns a topic, audience and hour budget into a course outline with teaching objectives, then writes executable lesson plans, handout structure and classroom activities.",
   "author": {
     "name": "soia-team"
