@@ -1,11 +1,11 @@
 ---
 name: soia-edu-compose-lesson-plan
 description: 按课程大纲编写可执行教案与讲义结构；适用于“教案”“讲义”“课堂活动”等请求。
-version: 1.0.0
+version: 1.0.1
 created_at: 2026-07-23 00:02:57
-updated_at: 2026-07-23 00:02:57
+updated_at: 2026-08-05 13:30:00
 created_by: gpt-5.6-luna
-updated_by: gpt-5.6-luna
+updated_by: claude-opus-5
 ---
 
 # soia-edu-compose-lesson-plan
