@@ -1,11 +1,11 @@
 ---
 name: soia-edu-design-course-outline
 description: 从主题、受众和课时约束设计课程大纲；适用于“课程大纲”“教学目标”“课时规划”等请求。
-version: 1.0.0
+version: 1.0.1
 created_at: 2026-07-23 00:02:57
-updated_at: 2026-07-23 00:02:57
+updated_at: 2026-08-05 13:30:00
 created_by: gpt-5.6-luna
-updated_by: gpt-5.6-luna
+updated_by: claude-opus-5
 ---
 
 # soia-edu-design-course-outline
