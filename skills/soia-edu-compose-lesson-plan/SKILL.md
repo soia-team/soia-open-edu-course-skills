@@ -63,6 +63,8 @@ defaults:
 
 配置完全可选。若需要制作课件幻灯，可选用跨仓技能 `soia-dev-open-design-ops`；它缺失时仍交付完整教案和讲义结构，只省略幻灯制作步骤。
 
+**WorkBuddy** 的装载单位是角色化专家而不是插件，`npx skills add -a '*'` 覆盖不到它，需要单独安装，见 [docs/install/workbuddy.md](https://github.com/soia-team/soia-open-skills/blob/main/docs/install/workbuddy.md)。
+
 ### 私密信息与中间数据
 
 - 只接收完成教学设计所需的聚合信息，不索取真实姓名、学校、联系方式、成绩明细、健康状况或家庭情况。
