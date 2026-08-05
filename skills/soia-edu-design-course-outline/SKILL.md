@@ -63,6 +63,8 @@ defaults:
 
 配置完全可选。示例值是通用占位，不得把真实机构、学习者或家庭信息写入技能文件、提示示例或公开仓库。
 
+**WorkBuddy** 的装载单位是角色化专家而不是插件，`npx skills add -a '*'` 覆盖不到它，需要单独安装，见 [docs/install/workbuddy.md](https://github.com/soia-team/soia-open-skills/blob/main/docs/install/workbuddy.md)。
+
 ### 私密信息与中间数据
 
 - 只使用完成任务所需的最少受众特征；优先使用年龄段、基础水平、班级规模等聚合描述。
